@@ -4,6 +4,7 @@
     --secondary-color: #d0dde9; /* Sekundærfarge */
     --background-color: rgb(243, 180, 180); /* Bakgrunnsfarge */
     --text-color: #6784a1; /* Tekstfarge */
+    --button-text-color: white; /* Hvit background for knapper */
     
     /* Definerer skrifttyper */
     --heading-font: 'Arial', sans-serif;
@@ -81,7 +82,7 @@
   /* Footer-styling */
   footer {
     background-color: var(--secondary-color);
-    color: rgb(228, 116, 116);
+    color: rgb(0, 0, 0);
     padding: var(--default-padding);
     text-align: center;
     width: 100%;
@@ -89,14 +90,15 @@
   
   /* Button-styling */
   button {
-    background-color: var(--primary-color);
-    color: rgb(2, 0, 0);
+    background-color: var(--button-text-color);
+    color: var(--background-color);
     border: none;
     padding: var(--default-padding);
     border-radius: var(--default-border-radius);
     cursor: pointer;
     font-size: 16px;
     margin-top: var(--default-margin);
+    
   }
   
   button:hover {
