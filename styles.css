@@ -1,0 +1,104 @@
+/* Definerer CSS-variabler */
+:root {
+    --primary-color: #4470a0; /* Primærfarge */
+    --secondary-color: #d0dde9; /* Sekundærfarge */
+    --background-color: rgb(243, 180, 180); /* Bakgrunnsfarge */
+    --text-color: #6784a1; /* Tekstfarge */
+    
+    /* Definerer skrifttyper */
+    --heading-font: 'Arial', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+    
+    /* Definerer vanlige CSS-egenskaper */
+    --default-padding: 16px;
+    --default-margin: 16px;
+    --default-border-radius: 8px;
+    --max-width: 1200px;
+  }
+  
+  /* Grunnleggende styling for body */
+  body {
+    font-family: var(--body-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header-styling */
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--default-padding);
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* H1-styling for overskriften */
+  header h1 {
+    font-family: var(--heading-font);
+    margin: 0;
+  }
+  
+  /* Main-seksjon */
+  main {
+    max-width: var(--max-width);
+    width: 100%;
+    padding: var(--default-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Seksjonsstyling */
+  section {
+    background-color: rgb(243, 212, 174);
+    padding: var(--default-padding);
+    margin-bottom: var(--default-margin);
+    border-radius: var(--default-border-radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  section h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+  /* Link-styling */
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer-styling */
+  footer {
+    background-color: var(--secondary-color);
+    color: rgb(228, 116, 116);
+    padding: var(--default-padding);
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Button-styling */
+  button {
+    background-color: var(--primary-color);
+    color: rgb(2, 0, 0);
+    border: none;
+    padding: var(--default-padding);
+    border-radius: var(--default-border-radius);
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: var(--default-margin);
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+  }
