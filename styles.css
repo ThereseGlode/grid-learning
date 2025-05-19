@@ -1,10 +1,11 @@
 /* Definerer CSS-variabler */
+/*Brukte coolers for å finne fargepallett */
 :root {
-    --primary-color: #4470a0; /* Primærfarge */
-    --secondary-color: #d0dde9; /* Sekundærfarge */
-    --background-color: rgb(243, 180, 180); /* Bakgrunnsfarge */
-    --text-color: #6784a1; /* Tekstfarge */
-    --button-text-color: white; /* Hvit background for knapper */
+    --primary-color: #7595A8; /* Primærfarge */
+    --secondary-color: #6383A7; /* Sekundærfarge */
+    --background-color: #5171A5; /* Bakgrunnsfarge */
+    --text-color: #191c1f; /* Tekstfarge */
+    --button-text-color: grey; /* Bakgrunn for knapper */
     
     /* Definerer skrifttyper */
     --heading-font: 'Arial', sans-serif;
@@ -32,7 +33,7 @@
   /* Header-styling */
   header {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
     padding: var(--default-padding);
     text-align: center;
     width: 100%;
@@ -40,7 +41,7 @@
   
   /* H1-styling for overskriften */
   header h1 {
-    font-family: var(--heading-font);
+    font-family: purple;
     margin: 0;
   }
   
@@ -56,7 +57,7 @@
   
   /* Seksjonsstyling */
   section {
-    background-color: rgb(243, 212, 174);
+    background-color: var(--primary-color);
     padding: var(--default-padding);
     margin-bottom: var(--default-margin);
     border-radius: var(--default-border-radius);
@@ -66,12 +67,12 @@
   
   section h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--text-color);
   }
   
   /* Link-styling */
   a {
-    color: var(--primary-color);
+    color: var(--text-color);
     text-decoration: none;
   }
   
@@ -91,7 +92,7 @@
   /* Button-styling */
   button {
     background-color: var(--button-text-color);
-    color: var(--background-color);
+    color: var(--text-color);
     border: none;
     padding: var(--default-padding);
     border-radius: var(--default-border-radius);
