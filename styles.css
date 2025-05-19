@@ -33,17 +33,18 @@
   /* Header-styling */
   header {
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--background-color); /*Farge paragraf i header */
     padding: var(--default-padding);
     text-align: center;
     width: 100%;
   }
   
   /* H1-styling for overskriften */
-  header h1 {
-    font-family: purple;
-    margin: 0;
+  h1 {
+    color: var(--background-color);
   }
+
+  
   
   /* Main-seksjon */
   main {
